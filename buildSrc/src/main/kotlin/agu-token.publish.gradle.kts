@@ -25,9 +25,9 @@ configure<PublishingExtension> {
                 }
 
                 scm {
-                    connection.set("scm:git:git://github.com/stainless-sdks/agu-token-java.git")
-                    developerConnection.set("scm:git:git://github.com/stainless-sdks/agu-token-java.git")
-                    url.set("https://github.com/stainless-sdks/agu-token-java")
+                    connection.set("scm:git:git://github.com/Boomchainlab/boomchainlab-framework.git")
+                    developerConnection.set("scm:git:git://github.com/Boomchainlab/boomchainlab-framework.git")
+                    url.set("https://github.com/Boomchainlab/boomchainlab-framework")
                 }
 
                 versionMapping {
