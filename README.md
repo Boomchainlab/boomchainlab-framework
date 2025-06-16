@@ -2,8 +2,8 @@
 
 <!-- x-release-please-start-version -->
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.agu_token.api/agu-token-java)](https://central.sonatype.com/artifact/com.agu_token.api/agu-token-java/0.0.1-alpha.0)
-[![javadoc](https://javadoc.io/badge2/com.agu_token.api/agu-token-java/0.0.1-alpha.0/javadoc.svg)](https://javadoc.io/doc/com.agu_token.api/agu-token-java/0.0.1-alpha.0)
+[![Maven Central](https://img.shields.io/maven-central/v/com.agu_token.api/agu-token-java)](https://central.sonatype.com/artifact/com.agu_token.api/agu-token-java/0.0.1-alpha.1)
+[![javadoc](https://javadoc.io/badge2/com.agu_token.api/agu-token-java/0.0.1-alpha.1/javadoc.svg)](https://javadoc.io/doc/com.agu_token.api/agu-token-java/0.0.1-alpha.1)
 
 <!-- x-release-please-end -->
 
@@ -13,7 +13,7 @@ It is generated with [Stainless](https://www.stainless.com/).
 
 <!-- x-release-please-start-version -->
 
-Javadocs are available on [javadoc.io](https://javadoc.io/doc/com.agu_token.api/agu-token-java/0.0.1-alpha.0).
+Javadocs are available on [javadoc.io](https://javadoc.io/doc/com.agu_token.api/agu-token-java/0.0.1-alpha.1).
 
 <!-- x-release-please-end -->
 
@@ -24,7 +24,7 @@ Javadocs are available on [javadoc.io](https://javadoc.io/doc/com.agu_token.api/
 ### Gradle
 
 ```kotlin
-implementation("com.agu_token.api:agu-token-java:0.0.1-alpha.0")
+implementation("com.agu_token.api:agu-token-java:0.0.1-alpha.1")
 ```
 
 ### Maven
@@ -33,7 +33,7 @@ implementation("com.agu_token.api:agu-token-java:0.0.1-alpha.0")
 <dependency>
   <groupId>com.agu_token.api</groupId>
   <artifactId>agu-token-java</artifactId>
-  <version>0.0.1-alpha.0</version>
+  <version>0.0.1-alpha.1</version>
 </dependency>
 ```
 
