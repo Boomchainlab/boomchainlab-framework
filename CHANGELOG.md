@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.0.1-alpha.3 (2025-06-21)
+
+Full Changelog: [v0.0.1-alpha.2...v0.0.1-alpha.3](https://github.com/Boomchainlab/boomchainlab-framework/compare/v0.0.1-alpha.2...v0.0.1-alpha.3)
+
+### Chores
+
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-core to v2.19.1 ([71f78c5](https://github.com/Boomchainlab/boomchainlab-framework/commit/71f78c51e02544149f385dd3d4b1cff73a07689b))
+* sync repo ([cb6802a](https://github.com/Boomchainlab/boomchainlab-framework/commit/cb6802a759be2ee411d1be64d03f45fec43d94d4))
+
 ## 0.0.1-alpha.2 (2025-06-21)
 
 Full Changelog: [v0.0.1-alpha.1...v0.0.1-alpha.2](https://github.com/Boomchainlab/boomchainlab-framework/compare/v0.0.1-alpha.1...v0.0.1-alpha.2)
