@@ -1,0 +1,36 @@
+name: Deploy to Maven Central
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']  # Tag format: v1.0.0
+
+jobs:
+  deploy:
+    name: Release to Maven Central
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Source
+      uses: actions/checkout@v4
+
+    - name: Set up Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: '17'
+        gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+        gpg-passphrase: ${{ secrets.GPG_PASSPHRASE }}
+        server-id: ossrh
+        server-username: ${{ secrets.OSSRH_USERNAME }}
+        server-password: ${{ secrets.OSSRH_PASSWORD }}
+
+    - name: Import GPG key
+      run: |
+        echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --import
+        echo "allow-loopback-pinentry" >> ~/.gnupg/gpg-agent.conf
+        echo "use-agent" >> ~/.gnupg/gpg.conf
+        echo RELOADAGENT | gpg-connect-agent
+
+    - name: Deploy to Sonatype
+      run: mvn --batch-mode deploy -P release -Dgpg.passphrase=${{ secrets.GPG_PASSPHRASE }}
