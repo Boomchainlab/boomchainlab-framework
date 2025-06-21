@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.0.1-alpha.4 (2025-06-21)
+
+Full Changelog: [v0.0.1-alpha.3...v0.0.1-alpha.4](https://github.com/Boomchainlab/boomchainlab-framework/compare/v0.0.1-alpha.3...v0.0.1-alpha.4)
+
+### Chores
+
+* **deps:** update plugin org.jetbrains.kotlin.jvm to v1.9.25 ([c76b95e](https://github.com/Boomchainlab/boomchainlab-framework/commit/c76b95e5717ba5b1fa5e46615d642874f7303ceb))
+* sync repo ([58493a7](https://github.com/Boomchainlab/boomchainlab-framework/commit/58493a7dc2f67c632caf97a0136bf22942e5cfac))
+
 ## 0.0.1-alpha.3 (2025-06-21)
 
 Full Changelog: [v0.0.1-alpha.2...v0.0.1-alpha.3](https://github.com/Boomchainlab/boomchainlab-framework/compare/v0.0.1-alpha.2...v0.0.1-alpha.3)
