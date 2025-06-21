@@ -9,7 +9,7 @@ configurations.all {
         // We publish with a higher version (see below) to ensure users depend on a secure version by default.
         force("com.fasterxml.jackson.core:jackson-core:2.13.4")
         force("com.fasterxml.jackson.core:jackson-databind:2.13.4")
-        force("com.fasterxml.jackson.core:jackson-annotations:2.13.4")
+        force("com.fasterxml.jackson.core:jackson-annotations:2.19.1")
         force("com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.4")
         force("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.4")
         force("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.4")
@@ -21,7 +21,7 @@ dependencies {
     api("com.fasterxml.jackson.core:jackson-databind:2.18.2")
     api("com.google.errorprone:error_prone_annotations:2.33.0")
 
-    implementation("com.fasterxml.jackson.core:jackson-annotations:2.18.2")
+    implementation("com.fasterxml.jackson.core:jackson-annotations:2.19.1")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.18.2")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.18.2")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.18.2")
