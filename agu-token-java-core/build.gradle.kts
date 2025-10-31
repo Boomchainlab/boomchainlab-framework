@@ -12,7 +12,7 @@ configurations.all {
         force("com.fasterxml.jackson.core:jackson-annotations:2.13.4")
         force("com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.4")
         force("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.4")
-        force("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.4")
+        force("com.fasterxml.jackson.module:jackson-module-kotlin:2.20.1")
     }
 }
 
@@ -24,7 +24,7 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-annotations:2.18.2")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.18.2")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.18.2")
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.18.2")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.20.1")
     implementation("org.apache.httpcomponents.core5:httpcore5:5.2.4")
     implementation("org.apache.httpcomponents.client5:httpclient5:5.3.1")
 
